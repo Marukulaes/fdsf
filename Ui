@@ -15,7 +15,7 @@
 				{50, 'ModuleScript', {'Dark'}},
 				{52, 'ModuleScript', {'Light'}},
 				{51, 'ModuleScript', {'Darker'}},
-				{53, 'ModuleScript', {'Yonex Hub'}},
+				{53, 'ModuleScript', {'Yonex'}},
 			}
 		}},
 		{19, 'ModuleScript', {'Elements',
@@ -102,7 +102,7 @@ local aa = {
             Window = nil,
             WindowFrame = nil,
             Unloaded = false,
-			Theme = 'Yonex Hub',
+			Theme = 'Yonex',
             DialogOpen = false,
             UseAcrylic = false,
             Acrylic = false,
@@ -4544,7 +4544,7 @@ local aa = {
     [47] = function()
         local aa, ab, ac, ad, ae = b(47)
         local af = {
-            Names = {'Yonex Hub', 'Dark', 'Darker', 'Light'}
+            Names = {'Yonex', 'Dark', 'Darker', 'Light'}
         }
         for ag, ah in next, ab:GetChildren() do
             local aj = ac(ah)
@@ -4663,7 +4663,7 @@ local aa = {
     [53] = function()
         local aa, ab, ac, ad, ae = b(53)
         return {
-            Name = 'Yonex Hub',
+            Name = 'Yonex',
             Accent = Color3.fromRGB(182, 161, 0),
             AcrylicMain = Color3.fromRGB(30, 30, 30),
             AcrylicBorder = Color3.fromRGB(60, 60, 60),
